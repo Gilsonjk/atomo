@@ -1,0 +1,102 @@
+#header{
+    width: 100%;
+    background-color:transparent ;
+    
+}
+#header .navbar-collapse{
+    width: auto;
+}
+
+#header .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0%;
+    padding-right: 0%;
+    color: brown;
+    margin-right:15px ;
+    margin-left:15px ;
+    border-bottom:solid 4px transparent ;
+
+}
+
+#header .nav-link:hover{
+    border-bottom:solid 4px rebeccapurple ;
+}
+
+
+
+
+#aside{
+  
+   padding-bottom: 30px;
+   padding-top: 30px;
+}
+
+
+
+.main-title{
+    color: darkolivegreen;
+    margin: 0 0 60px 0;
+    font-size: 40px;
+    text-align: center;
+    border-bottom:  1px solid  chocolate ;
+    
+}
+
+.main-title:after{
+    content: "";
+   
+   
+    width:15%;
+    position: absolute;
+    top: 35px;
+    left: 42.5%;
+
+
+
+}
+
+.about-title{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list-li{
+    line-height: 30px;
+
+}
+
+#about-list i{
+    margin-right: 15px;
+}
+
+#section{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.section-box i, .section-box h4{
+    transition: 0.4s;
+}
+
+.section-box i{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+.section-box h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.section-box:hover > i, .section-box:hover > h4{
+    color: #65DAF9;
+}
